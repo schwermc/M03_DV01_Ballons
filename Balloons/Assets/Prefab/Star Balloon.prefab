@@ -893,6 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7900879726386072469}
   - component: {fileID: 1890138698424748828}
+  - component: {fileID: 3985193208580865180}
   m_Layer: 0
   m_Name: Star Balloon
   m_TagString: Untagged
@@ -954,6 +955,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3985193208580865180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7386800519936190018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca07c75177f70e4f9e6f1ac7ea5a60c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7397688566251558953
 GameObject:
   m_ObjectHideFlags: 0
