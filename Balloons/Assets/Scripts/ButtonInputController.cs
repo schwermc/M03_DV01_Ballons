@@ -14,6 +14,7 @@ public class ButtonInputController : MonoBehaviour
         }
         else if (Input.GetButtonUp("XRI_Right_TriggerButton"))
         {
+            Debug.Log("Button Up");
             ButtonUpEvent.Invoke();
         }
     }
